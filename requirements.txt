@@ -1,0 +1,9 @@
+datasets
+openai
+huggingface_hub
+transformers
+scipy
+numpy
+pandas
+jupyter
+python-dotenv
