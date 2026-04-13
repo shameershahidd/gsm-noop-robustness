@@ -1,0 +1,134 @@
+{
+  "llama-3.3-70b-versatile": {
+    "standard": {
+      "original_accuracy": 0.46,
+      "noop_accuracy": 0.34,
+      "delta": 0.12,
+      "orig_ci": [
+        0.37,
+        0.56
+      ],
+      "noop_ci": [
+        0.25,
+        0.44
+      ],
+      "mcnemar_p_value": 0.030984050098456728
+    },
+    "cot": {
+      "original_accuracy": 0.51,
+      "noop_accuracy": 0.41,
+      "delta": 0.10000000000000003,
+      "orig_ci": [
+        0.41,
+        0.61
+      ],
+      "noop_ci": [
+        0.32,
+        0.51
+      ],
+      "mcnemar_p_value": 0.009374768459434857
+    },
+    "sc": {
+      "original_accuracy": 0.62,
+      "noop_accuracy": 0.63,
+      "delta": -0.010000000000000009,
+      "orig_ci": [
+        0.53,
+        0.7102499999999997
+      ],
+      "noop_ci": [
+        0.53,
+        0.73
+      ],
+      "mcnemar_p_value": 1.0
+    }
+  },
+  "llama-3.1-8b-instant": {
+    "standard": {
+      "original_accuracy": 0.46,
+      "noop_accuracy": 0.42,
+      "delta": 0.040000000000000036,
+      "orig_ci": [
+        0.36,
+        0.55
+      ],
+      "noop_ci": [
+        0.32,
+        0.52
+      ],
+      "mcnemar_p_value": 0.5224312849615643
+    },
+    "cot": {
+      "original_accuracy": 0.8,
+      "noop_accuracy": 0.74,
+      "delta": 0.06000000000000005,
+      "orig_ci": [
+        0.73,
+        0.88
+      ],
+      "noop_ci": [
+        0.65,
+        0.82
+      ],
+      "mcnemar_p_value": 0.14891467317876161
+    },
+    "sc": {
+      "original_accuracy": 0.8,
+      "noop_accuracy": 0.74,
+      "delta": 0.06000000000000005,
+      "orig_ci": [
+        0.72,
+        0.88
+      ],
+      "noop_ci": [
+        0.65,
+        0.82
+      ],
+      "mcnemar_p_value": 0.14891467317876161
+    }
+  },
+  "qwen/qwen3-32b": {
+    "standard": {
+      "original_accuracy": 0.91,
+      "noop_accuracy": 0.86,
+      "delta": 0.050000000000000044,
+      "orig_ci": [
+        0.85,
+        0.96
+      ],
+      "noop_ci": [
+        0.78,
+        0.92
+      ],
+      "mcnemar_p_value": 0.073638270120303
+    },
+    "cot": {
+      "original_accuracy": 0.82,
+      "noop_accuracy": 0.75,
+      "delta": 0.06999999999999995,
+      "orig_ci": [
+        0.74,
+        0.8902499999999998
+      ],
+      "noop_ci": [
+        0.66,
+        0.83
+      ],
+      "mcnemar_p_value": 0.07044042927208816
+    },
+    "sc": {
+      "original_accuracy": 0.84,
+      "noop_accuracy": 0.87,
+      "delta": -0.030000000000000027,
+      "orig_ci": [
+        0.77,
+        0.9
+      ],
+      "noop_ci": [
+        0.8,
+        0.93
+      ],
+      "mcnemar_p_value": 0.5464935954065822
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "llama-3.3-70b-versatile": {
+    "standard": {
+      "original_accuracy": 0.46,
+      "noop_accuracy": 0.34,
+      "delta": 0.12
+    },
+    "cot": {
+      "original_accuracy": 0.51,
+      "noop_accuracy": 0.41,
+      "delta": 0.10000000000000003
+    },
+    "sc": {
+      "original_accuracy": 0.62,
+      "noop_accuracy": 0.63,
+      "delta": -0.010000000000000009
+    }
+  },
+  "llama-3.1-8b-instant": {
+    "standard": {
+      "original_accuracy": 0.46,
+      "noop_accuracy": 0.42,
+      "delta": 0.040000000000000036
+    },
+    "cot": {
+      "original_accuracy": 0.8,
+      "noop_accuracy": 0.74,
+      "delta": 0.06000000000000005
+    },
+    "sc": {
+      "original_accuracy": 0.8,
+      "noop_accuracy": 0.74,
+      "delta": 0.06000000000000005
+    }
+  },
+  "qwen/qwen3-32b": {
+    "standard": {
+      "original_accuracy": 0.91,
+      "noop_accuracy": 0.86,
+      "delta": 0.050000000000000044
+    },
+    "cot": {
+      "original_accuracy": 0.82,
+      "noop_accuracy": 0.75,
+      "delta": 0.06999999999999995
+    },
+    "sc": {
+      "original_accuracy": 0.84,
+      "noop_accuracy": 0.87,
+      "delta": -0.030000000000000027
+    }
+  }
+}
